@@ -8,7 +8,7 @@ import org.jfree.data.xy.XYSeries;
 import com.flatironschool.javacs.Profiler.Timeable;
 
 public class ProfileMapPut {
-	
+
 	/**
 	 * @param args
 	 */
@@ -38,7 +38,7 @@ public class ProfileMapPut {
 		int endMillis = 1000;
 		runProfiler("HashMap put", timeable, startN, endMillis);
 	}
-	
+
 	/**
 	 * Characterize the run time of putting a key in MyHashMap
 	 */
@@ -60,10 +60,10 @@ public class ProfileMapPut {
 		int endMillis = 5000;
 		runProfiler("MyHashMap put", timeable, startN, endMillis);
 	}
-	
+
 	/**
 	 * Runs the profiles and displays results.
-	 * 
+	 *
 	 * @param timeable
 	 * @param startN
 	 * @param endMillis

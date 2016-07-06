@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.flatironschool.javacs;
 
@@ -103,7 +103,7 @@ public class MyLinearMapTest {
 		map.put("One", 11);
 		assertThat(map.size(), is(4));
 		assertThat(map.get("One"), is(11));
-		
+
 		map.put("Five", 5);
 		assertThat(map.size(), is(5));
 		assertThat(map.get("Five"), is(5));

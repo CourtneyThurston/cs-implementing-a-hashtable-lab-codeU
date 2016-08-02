@@ -25,6 +25,7 @@ public class MyLinearMapTest {
 	/**
 	 * @throws java.lang.Exception
 	 */
+	//infrastructure for linear mapping exercise 
 	@Before
 	public void setUp() throws Exception {
 		map = new MyLinearMap<String, Integer>();

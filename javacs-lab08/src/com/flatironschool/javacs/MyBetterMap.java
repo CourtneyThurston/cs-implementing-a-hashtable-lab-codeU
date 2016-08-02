@@ -31,6 +31,7 @@ public class MyBetterMap<K, V> implements Map<K, V> {
 	public MyBetterMap() {
 		makeMaps(2);
 	}
+	//sub map creation to enable eventual crawler services
 
 	/**
 	 * Makes a collection of `k` MyLinearMap
